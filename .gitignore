@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# LaTeX build output
+report/paper/*.aux
+report/paper/*.log
+report/paper/*.out
+report/paper/*.pdf
+
+# mock runs
+results/mock_*
+figures/mock_*

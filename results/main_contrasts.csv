@@ -1,0 +1,31 @@
+contrast,a,b,stratum,diff,lo,hi
+GEO style premium,base,style,all,0.32291666666666663,0.2760416666666667,0.3697916666666667
+GEO style premium,base,style,known,0.10208333333333333,0.06874999999999999,0.1375
+GEO style premium,base,style,void,0.5437500000000001,0.4979166666666667,0.5875
+Forged-badge premium,base,badge,all,0.08125,0.05833333333333335,0.10416666666666667
+Forged-badge premium,base,badge,known,0.008333333333333331,0.002083333333333333,0.016666666666666666
+Forged-badge premium,base,badge,void,0.1541666666666667,0.11661458333333334,0.19374999999999998
+Self-claimed verification premium,base,claim,all,0.08333333333333333,0.05937500000000001,0.10835937499999986
+Self-claimed verification premium,base,claim,known,0.0125,0.002083333333333333,0.025
+Self-claimed verification premium,base,claim,void,0.1541666666666667,0.11249999999999999,0.19583333333333333
+Echo (3 copies) premium,base,echo,all,0.390625,0.3385416666666667,0.44166666666666665
+Echo (3 copies) premium,base,echo,known,0.14375,0.10625,0.1875
+Echo (3 copies) premium,base,echo,void,0.6375000000000001,0.59375,0.68125
+Independent corroboration premium,base,indep,all,0.45416666666666666,0.3979166666666667,0.5104166666666666
+Independent corroboration premium,base,indep,known,0.19375,0.15,0.24166666666666667
+Independent corroboration premium,base,indep,void,0.7145833333333333,0.6708333333333334,0.7520833333333333
+Independence sensitivity (indep minus echo; a careful reader makes this large),echo,indep,all,0.06354166666666666,0.04062500000000002,0.08752604166666654
+Independence sensitivity (indep minus echo; a careful reader makes this large),echo,indep,known,0.05000000000000002,0.01874999999999999,0.08333333333333331
+Independence sensitivity (indep minus echo; a careful reader makes this large),echo,indep,void,0.07708333333333328,0.04375000000000007,0.11250000000000004
+Effect of the real system check on a forged badge,badge,check,all,-0.0072916666666666685,-0.030208333333333337,0.015625
+Effect of the real system check on a forged badge,badge,check,known,-0.004166666666666666,-0.018750000000000003,0.008333333333333333
+Effect of the real system check on a forged badge,badge,check,void,-0.010416666666666685,-0.05624999999999997,0.03541666666666671
+Forged badge + check vs baseline (residual harm),base,check,all,0.07395833333333333,0.05208333333333333,0.09583333333333334
+Forged badge + check vs baseline (residual harm),base,check,known,0.004166666666666666,-0.008333333333333335,0.016666666666666666
+Forged badge + check vs baseline (residual harm),base,check,void,0.14375000000000002,0.11041666666666666,0.17916666666666667
+Spoof penalty (attacker 'PASSED' text despite system FAILED; ideal 0),check,spoof,all,0.15416666666666665,0.12083333333333332,0.18749999999999997
+Spoof penalty (attacker 'PASSED' text despite system FAILED; ideal 0),check,spoof,known,0.0125,-0.004166666666666666,0.029166666666666667
+Spoof penalty (attacker 'PASSED' text despite system FAILED; ideal 0),check,spoof,void,0.2958333333333333,0.2520833333333333,0.3395833333333333
+Real verified badge on the truth (positive control; negative = helps),base,honest,all,-0.06979166666666667,-0.09377604166666667,-0.046875
+Real verified badge on the truth (positive control; negative = helps),base,honest,known,-0.0125,-0.035416666666666666,0.0
+Real verified badge on the truth (positive control; negative = helps),base,honest,void,-0.12708333333333333,-0.16874999999999998,-0.09166666666666667

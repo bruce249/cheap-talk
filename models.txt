@@ -1,0 +1,20 @@
+# <spec> [input $/1M] [output $/1M]   (prices are used for the budget cap; HF prices are fetched automatically)
+# Check ids with:  python -m scripts.check_models --list openai | --list xai | --list hf --grep gemma
+# Then ping all:   python -m scripts.check_models
+#
+# OpenAI (capability ladder within one lab)
+# openai:gpt-4.1-nano      0.10  0.40   # 404s as deprecated
+openai:gpt-5-nano?reasoning_effort=minimal&max_tokens=1500   0.05  0.40
+openai:gpt-4o-mini       0.15  0.60
+openai:gpt-4.1-mini      0.40  1.60
+# xAI
+xai:grok-4-1-fast-non-reasoning   0.20  0.50
+# Hugging Face Inference Providers (open weights, 4 more labs; uses your PRO credits first)
+hf:meta-llama/Llama-4-Scout-17B-16E-Instruct:cheapest
+hf:Qwen/Qwen3-235B-A22B-Instruct-2507:cheapest
+hf:deepseek-ai/DeepSeek-V4-Flash:cheapest
+hf:google/gemma-3-27b-it:cheapest
+# Optional extras if the pilot shows budget room:
+# openai:gpt-5-nano?reasoning_effort=minimal&max_tokens=1500   0.05  0.40
+# hf:openai/gpt-oss-120b:cheapest?max_tokens=1500
+# hf:zai-org/GLM-5.3-Flash:cheapest
